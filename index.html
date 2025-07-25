@@ -9,11 +9,10 @@
 <script src="https://cdn.tailwindcss.com"></script>
 
 </head>
-<body>
+<body class="bg-gray-50">
 
-   
-    <header>
-            <nav class="bg-white p-4 top-0 z-50 ">
+    <!-- Navbar Section -->
+    <nav class="bg-white p-4 top-0 z-50 ">
         <div class="container mx-auto flex justify-between items-center py-2">
             <!-- Logo/Website Name -->
             <div class="flex items-center">
@@ -39,14 +38,113 @@
             </div>
         </div>
     </nav>
-           </header>
-        <main>
-        <section>
 
-        </section>
-          <section>
-            
-        </section>
+    <!-- Hero Section -->
+    <header class="hero-section-container px-0 md:px-4">
+        <div class="container mx-auto flex flex-col md:flex-row items-center justify-between gap-8 md:gap-12">
+            <!-- Image (appears first on mobile, last on desktop) -->
+            <div class="w-full md:w-1/2 flex justify-center md:justify-end md:order-last">
+                <img src="assets/hero-flower.png" alt="Hero Flower Bouquet" class="w-full h-auto object-cover  ">
+            </div>
+
+            <!-- Text Content (appears after image on mobile, first on desktop) -->
+            <div class="w-full md:w-1/2 text-center md:text-left px-4 md:px-0 py-8 md:py-0">
+                <h1 class="new-hero-title mb-5">
+                    ALWAYS <span class="text-orangee">FRESH<br class="md:block">FLOWERS</span>
+                </h1>
+                <p class="new-hero-paragraph mb-10 max-w-lg mx-auto md:mx-0">
+                    Indulge your senses with the beauty and fragrance of our fresh flower shop. From classic roses to exotic blooms, we offer a wide variety of fresh flowers that are perfect for any occasion.
+                </p>
+            </div>
+        </div>
+    </header>
+       <main>
+    <!-- Plants Section -->
+    <section class="bg-white py-12 md:py-20 px-4">
+        <div class="container mx-auto text-center">
+            <h2 class="section-title mb-4"><span class="text-orangee">Our </span>Plants</h2>
+            <p class="section-subtitle mb-8 md:mb-16 max-w-3xl mx-auto">
+                Indulge your senses with the beauty and fragrance of our fresh flower shop. From classic roses to exotic blooms, we offer a wide variety of fresh.
+            </p>
+
+            <!-- Cards Grid: 2 columns on mobile, 3 on tablet, 4 on desktop -->
+            <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 md:gap-6 justify-items-center">
+                <!-- Plant Card 1 -->
+                <div class="plant-card flex flex-col items-center   w-full max-w-[270px] overflow-hidden">
+                    <img src="assets/sample-flower-image.png" alt="Flower 4" class="plant-card-image w-full mb-4 ">
+                    <h3 class="font-inter text-lg md:text-xl font-medium text-gray-800 mb-2">Lily Blossom</h3>
+                    <p class="plant-price mb-4">20 USD</p>
+                    <button class="add-to-cart-button text-white  py-3 px-4">
+                        Add to Cart
+                    </button>
+                </div>
+                <!-- Plant Card 2 -->
+                <div class="plant-card flex flex-col items-center   w-full max-w-[270px] overflow-hidden">
+                    <img src="assets/sample-flower-image.png" alt="Flower 4" class="plant-card-image w-full mb-4 ">
+                    <h3 class="font-inter text-lg md:text-xl font-medium text-gray-800 mb-2">Lily Blossom</h3>
+                    <p class="plant-price mb-4">20 USD</p>
+                    <button class="add-to-cart-button text-white  py-3 px-4">
+                        Add to Cart
+                    </button>
+                </div>
+                <!-- Plant Card 3 -->
+                <div class="plant-card flex flex-col items-center  w-full max-w-[270px] overflow-hidden">
+                    <img src="assets/sample-flower-image.png" alt="Flower 4" class="plant-card-image w-full mb-4 ">
+                    <h3 class="font-inter text-lg md:text-xl font-medium text-gray-800 mb-2">Lily Blossom</h3>
+                    <p class="plant-price mb-4">20 USD</p>
+                    <button class="add-to-cart-button text-white  py-3 px-4">
+                        Add to Cart
+                    </button>
+                </div>
+                <!-- Plant Card 4 -->
+                <div class="plant-card flex flex-col items-center  w-full max-w-[270px] overflow-hidden">
+                    <img src="assets/sample-flower-image.png" alt="Flower 4" class="plant-card-image w-full mb-4 ">
+                    <h3 class="font-inter text-lg md:text-xl font-medium text-gray-800 mb-2">Lily Blossom</h3>
+                    <p class="plant-price mb-4">20 USD</p>
+                    <button class="add-to-cart-button text-white  py-3 px-4">
+                        Add to Cart
+                    </button>
+                </div>
+                <!-- Plant Card 5 -->
+                <div class="plant-card flex flex-col items-center   w-full max-w-[270px] overflow-hidden">
+                    <img src="assets/sample-flower-image.png" alt="Flower 4" class="plant-card-image w-full mb-4 ">
+                    <h3 class="font-inter text-lg md:text-xl font-medium text-gray-800 mb-2">Lily Blossom</h3>
+                    <p class="plant-price mb-4">20 USD</p>
+                    <button class="add-to-cart-button text-white  py-3 px-4">
+                        Add to Cart
+                    </button>
+                </div>
+                <!-- Plant Card 6 -->
+                <div class="plant-card flex flex-col items-center   w-full max-w-[270px] overflow-hidden">
+                    <img src="assets/sample-flower-image.png" alt="Flower 4" class="plant-card-image w-full mb-4 ">
+                    <h3 class="font-inter text-lg md:text-xl font-medium text-gray-800 mb-2">Lily Blossom</h3>
+                    <p class="plant-price mb-4">20 USD</p>
+                    <button class="add-to-cart-button text-white  py-3 px-4">
+                        Add to Cart
+                    </button>
+                </div>
+                <!-- Plant Card 7 -->
+                <div class="plant-card flex flex-col items-center w-full max-w-[270px] overflow-hidden">
+                    <img src="assets/sample-flower-image.png" alt="Flower 4" class="plant-card-image w-full mb-4 ">
+                    <h3 class="font-inter text-lg md:text-xl font-medium text-gray-800 mb-2">Lily Blossom</h3>
+                    <p class="plant-price mb-4">20 USD</p>
+                    <button class="add-to-cart-button text-white  py-3 px-4">
+                        Add to Cart
+                    </button>
+                </div>
+                <!-- Plant Card 8 -->
+                <div class="plant-card flex flex-col items-center   w-full max-w-[270px] overflow-hidden">
+                    <img src="assets/sample-flower-image.png" alt="Flower 4" class="plant-card-image w-full mb-4 ">
+                    <h3 class="font-inter text-lg md:text-xl font-medium text-gray-800 mb-2">Lily Blossom</h3>
+                    <p class="plant-price mb-4">20 USD</p>
+                    <button class="add-to-cart-button text-white  py-3 px-4">
+                        Add to Cart
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+       
 
 
 
