@@ -1,0 +1,11 @@
+ body {
+            font-family: 'Inter', sans-serif;
+            overflow-x: hidden; 
+            background-color: #ffffff;
+        }
+                .text-orangee { color: #E95A08; }
+        .bg-custom-pink-gradient { background: rgb(255, 255, 255); }
+        .text-custom-gray-dark { color: #333333; }
+        .text-custom-gray-medium { color: #555555; }
+        .bg-card-light { background-color: #ffffff; }
+        .bg-section-light-pink { background-color: #ffffff; }
